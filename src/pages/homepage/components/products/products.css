@@ -1,0 +1,116 @@
+.products {
+    margin-top: 50px;
+}
+
+.products > .container > h2 {
+    text-align: center;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.products-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 30px;
+}
+
+.products-box {
+    position: relative;
+    background-color: #80808038;
+}
+.products-box::after {
+    content: "New";
+    width: 50px;
+    position: absolute;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+    border-radius: 50%;
+    background-color: green;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+.products-box:hover .box-hover {
+    opacity: 1;
+}
+.products-box > img {
+    width: 100%;
+}
+
+.products-box > h3 {
+    padding: 10px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.products-box > p {
+    padding: 0 10px 10px;
+    margin: 0;
+    color: var(--p-color);
+}
+
+.products-box > .p-second {
+    font-weight: 900;
+}
+
+.p-second > span {
+    color: var(--p-color);
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.box-hover {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3a3a3a94;
+    opacity: 0;
+    transition: .5s;
+}
+
+.box-hover > a {
+    background-color: #ffffff;
+    padding: 10px 50px;
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 700;
+}
+
+.box-act > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.products-btn {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-btn > a {
+    padding: 5px 50px;
+    margin: auto;
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    background-color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: .5s;
+    
+}
+
+.products-btn:hover a {
+    background-color: var(--main-color);
+    color: #ffffff;
+}

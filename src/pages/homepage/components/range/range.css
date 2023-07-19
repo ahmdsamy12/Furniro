@@ -1,0 +1,29 @@
+.range {
+    margin-top: 50px;
+}
+
+
+.range-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.range-text > h2 {
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.range-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
+    gap: 30px;
+}
+
+.range-box > img {
+    width: 100%;
+}
+
+.range-box > h3 {
+    text-align: center;
+    padding: 10px;
+}

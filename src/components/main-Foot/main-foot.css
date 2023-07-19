@@ -1,0 +1,35 @@
+
+.main-foot {
+    background-color: #FAF3EA;
+    padding: 20px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.foot-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.foot-box  svg {
+    height: 50px;
+}
+
+.foot-text > h3 {
+    line-height: .8;
+    font-weight: 700;
+    font-size: 21px;
+}

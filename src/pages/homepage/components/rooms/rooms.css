@@ -1,0 +1,86 @@
+.rooms {
+    background-color: #FCF8F3;
+    margin: 50px 0 0 0;
+    padding: 0 0 50px 0;
+}
+
+.rooms-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.rooms-box {
+    position: relative;
+}
+
+.rooms-box .box1-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 30px 0 0 0;
+}
+
+.box1-text > h3 {
+    font-weight: 800;
+    color: var(--text-color);
+}
+
+.box1-text > a {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: #ffffff;
+    padding: 5px 40px;
+    width: fit-content;
+}
+
+.rooms-box .box-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.text-a > a > svg {
+    position: absolute;
+    right: -25px;
+    background-color: var(--main-color);
+    padding: 5px;
+    color: #ffffff;
+    bottom: 0;
+}
+
+.rooms-box > img {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--main-color) !important;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid var(--main-color);
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 375px;
+}
+
+.slick-next:before ,
+.slick-prev:before {
+    color: var(--main-color);
+}
+
+.slick-arrow.slick-prev {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+}
+
+.slick-arrow.slick-next {
+    position: absolute;
+    right: 0;
+}
