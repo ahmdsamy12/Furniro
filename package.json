@@ -1,6 +1,6 @@
 {
   "proxy": "http://localhost:5000",
-  "homepage": "https://ahmdsamy.github.io//",
+  "homepage": "https://ahmdsamy.github.io/Furniro/",
   "name": "furniro-project",
   "version": "0.1.0",
   "private": true,
