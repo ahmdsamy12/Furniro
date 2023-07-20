@@ -1,9 +1,10 @@
 {
+  "proxy": "http://localhost:5000",
+  "homepage": "https://ahmdsamy.github.io//",
   "name": "furniro-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "proxy": "http://localhost:3000",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -18,7 +19,6 @@
     "express": "^4.18.2",
     "framer-motion": "^10.12.22",
     "gh-pages": "^5.0.0",
-    "homepage": ".",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
